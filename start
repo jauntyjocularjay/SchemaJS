@@ -1,7 +1,0 @@
-#!/bin/bash
-
-git submodule add https://github.com/jauntyjocularjay/cupprchai.git module/cupprchai
-
-git submodule update --init
-
-npm run test

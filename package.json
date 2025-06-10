@@ -1,10 +1,10 @@
 {
     "name": "schemajs",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A schema creation library created and accomodating ES6.",
     "main": "Schema.mjs",
     "scripts": {
-        "start": "bash start",
+        "dev-start": "git submodule update --init",
         "test": "clear && mocha test --exit"
     },
     "repository": {
