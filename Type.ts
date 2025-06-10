@@ -11,14 +11,14 @@
 
 // export { TYPE }
 
-class TYPE {
-    static Object = Object.freeze(new TYPE('object'))
-    static Array = Object.freeze(new TYPE('array'))
-    static Boolean = Object.freeze(new TYPE('boolean'))
-    static Integer = Object.freeze(new TYPE('integer'))
-    static Number = Object.freeze(new TYPE('number'))
-    static Null = Object.freeze(new TYPE('null'))
-    static String = Object.freeze(new TYPE('string'))
+class TypeDefinition {
+    static Object = Object.freeze(new TypeDefinition('object'))
+    static Array = Object.freeze(new TypeDefinition('array'))
+    static Boolean = Object.freeze(new TypeDefinition('boolean'))
+    static Integer = Object.freeze(new TypeDefinition('integer'))
+    static Number = Object.freeze(new TypeDefinition('number'))
+    static Null = Object.freeze(new TypeDefinition('null'))
+    static String = Object.freeze(new TypeDefinition('string'))
 
     type: string
 
@@ -30,7 +30,7 @@ class TYPE {
 
 
 
-export default TYPE 
+export default TypeDefinition 
 /*
 import TYPE from './Types.mjs'
 */
